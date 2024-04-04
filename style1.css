@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(216, 253, 251);
+    background-size: 100%;
+    
+}
+
+.all{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 470px;
+    color: white;
+    font-family:cursive;
+    width: 300px;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.title{
+    background-color:#055BB5;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.sub{
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+button{
+    background-color: #44ac33;
+    color: #ffffff;
+}
+
+.center{
+    margin-left: 470px;
+}
+
+.center1{
+    /* margin-left: 500px; */
+    text-align: center;
+}
+
+
+

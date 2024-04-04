@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="all">
+
+        <div class="title">
+            North West Corner Method
+            </div>
+        
+            <div class="sub">
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" min="1" value="3"><br><br>
+            <label for="columns">Columns:</label>
+            <input type="number" id="columns" min="1" value="3"><br><br>
+            <button onclick="generateMatrix()">Generate Matrix</button>
+        </div>
+        </div>
+        <br>
+
+        <div class="center">
+        <table id="matrix"></table>
+        <br>
+        <div id="supplyInputs"></div><br>
+        <div id="demandInputs"></div><br>
+        </div>
+
+        <div class="center1">
+        <button onclick="calculateSolution()">Result</button>
+        <p id="solution"></p>
+        </div>
+
+    <script src="nwc.js"></script>
+</body>
+</html>
